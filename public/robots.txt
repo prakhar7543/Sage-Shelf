@@ -1,0 +1,6 @@
+# Sage & Shelf Robots.txt
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://sageandshelf.pages.dev/sitemap.xml

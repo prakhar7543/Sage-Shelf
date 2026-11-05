@@ -1,0 +1,6 @@
+{
+  "name": "Sage & Shelf – Thoughtful Spaces. Beautifully Organized.",
+  "description": "Premium kitchen organization guides, measurement-based storage calculators, and curated Amazon recommendations for kitchen drawers, under-sink cabinets, and pantries.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

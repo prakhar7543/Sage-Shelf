@@ -1,0 +1,353 @@
+[
+  {
+    "id": "bamboo-expandable-organizer-01",
+    "name": "Expandable Moso Bamboo Cutlery & Utensil Tray",
+    "brand": "Royal Craft Wood (Illustrative Reference)",
+    "category": "Kitchen Drawer Organization",
+    "categorySlug": "kitchen-drawers",
+    "description": "Adjustable side wings expand from 13 inches to 20 inches wide, providing 6 to 8 deep compartments for silverware and large cooking tools.",
+    "bestFor": "Standard to wide silverware and prep utensil drawers",
+    "dimensions": {
+      "width": "13.0\" - 20.0\" (expandable)",
+      "depth": "17.0\"",
+      "height": "2.5\"",
+      "clearanceRequired": "At least 2.75\" internal drawer height"
+    },
+    "material": "100% Organic Moso Bamboo",
+    "installationType": "Expandable / Drop-in",
+    "renterFriendly": true,
+    "features": [
+      "Sliding side wings that adjust without screws or tools",
+      "Reinforced mortise corners for structural longevity",
+      "Deep 2.5\" compartments preventing utensil pileover",
+      "Naturally water-resistant warm bamboo finish"
+    ],
+    "pros": [
+      "Fits varying drawer widths seamlessly",
+      "Natural warm wood look elevates kitchen aesthetic",
+      "Easy drop-in installation with zero tools required"
+    ],
+    "cons": [
+      "Needs hand wipe-down; not dishwasher safe",
+      "Requires at least 17.25\" internal drawer depth"
+    ],
+    "image": "/images/categories/kitchen_drawers.jpg",
+    "imageAlt": "Bamboo expandable silverware drawer organizer",
+    "amazonUrl": "https://www.amazon.com/s?k=expandable+bamboo+drawer+organizer",
+    "affiliateStatus": "placeholder",
+    "productStatus": "sample",
+    "sampleNotice": "Illustrative sample product for layout demonstration. Check manufacturer listing for exact specifications."
+  },
+  {
+    "id": "spring-bamboo-dividers-02",
+    "name": "Spring-Loaded Deep Drawer Dividers (Set of 4)",
+    "brand": "Bambüsi (Illustrative Reference)",
+    "category": "Kitchen Drawer Organization",
+    "categorySlug": "kitchen-drawers",
+    "description": "Internal tension springs with non-skid rubber padding allow instant custom partitioning for deep pots, pans, and towel drawers.",
+    "bestFor": "Deep cookware drawers, baking dishes, and kitchen towels",
+    "dimensions": {
+      "width": "0.6\" (each)",
+      "depth": "17.5\" - 22.0\" (spring compressed)",
+      "height": "4.0\"",
+      "clearanceRequired": "Minimum 4.25\" internal drawer height"
+    },
+    "material": "Natural Bamboo with EVA Foam Ends",
+    "installationType": "Expandable / Drop-in",
+    "renterFriendly": true,
+    "features": [
+      "Heavy-duty internal tension spring mechanism",
+      "EVA foam pads protect drawer interiors from scratching",
+      "Stackable configuration for deep 8\"+ kitchen drawers",
+      "Instant repositioning without adhesives or screws"
+    ],
+    "pros": [
+      "100% renter friendly with zero drawer wall damage",
+      "Accommodates bulky items like salad bowls and pot lids",
+      "Tension holds firmly through vigorous drawer opening"
+    ],
+    "cons": [
+      "Not suitable for shallow shallow (under 4\") drawers",
+      "Ensure drawer depth falls strictly within 17.5\" - 22\""
+    ],
+    "image": "/images/categories/kitchen_drawers.jpg",
+    "imageAlt": "Spring-loaded bamboo kitchen drawer dividers",
+    "amazonUrl": "https://www.amazon.com/s?k=bamboo+spring+drawer+dividers",
+    "affiliateStatus": "placeholder",
+    "productStatus": "sample",
+    "sampleNotice": "Illustrative sample product for layout demonstration."
+  },
+  {
+    "id": "tiered-drawer-spice-rack-03",
+    "name": "4-Tier Expandable Acrylic Spice Drawer Insert",
+    "brand": "mDesign (Illustrative Reference)",
+    "category": "Kitchen Drawer Organization",
+    "categorySlug": "kitchen-drawers",
+    "description": "Slanted acrylic steps keep 24 to 36 standard round or square spice jars angled upward for instant label identification.",
+    "bestFor": "Standard top cooktop drawers and spice storage",
+    "dimensions": {
+      "width": "13.0\" - 26.0\" (telescopic overlapping)",
+      "depth": "16.5\"",
+      "height": "1.5\" (tray alone, 3.25\" with standard 4oz jars)",
+      "clearanceRequired": "Minimum 3.5\" internal drawer height with spice jars"
+    },
+    "material": "BPA-Free Clear Shatter-Resistant Acrylic",
+    "installationType": "Expandable / Drop-in",
+    "renterFriendly": true,
+    "features": [
+      "Overlapping 2-piece design expands to fit exact width",
+      "Angled tiers keep spice labels visible from above",
+      "Prevents spice jars from rolling when opening drawers",
+      "Smooth wipe-clean surface with mild soap"
+    ],
+    "pros": [
+      "Eliminates countertop spice rack clutter",
+      "Crystal-clear material coordinates with any cabinetry",
+      "Wide expansion range suits 14\" to 26\" drawers"
+    ],
+    "cons": [
+      "Tall specialty spice containers may hit drawer frame",
+      "Check jar lid height against upper drawer clearance"
+    ],
+    "image": "/images/categories/kitchen_drawers.jpg",
+    "imageAlt": "Tiered expandable drawer spice rack insert",
+    "amazonUrl": "https://www.amazon.com/s?k=acrylic+drawer+spice+organizer",
+    "affiliateStatus": "placeholder",
+    "productStatus": "sample",
+    "sampleNotice": "Illustrative sample product for layout demonstration."
+  },
+  {
+    "id": "two-tier-sliding-undersink-04",
+    "name": "2-Tier Sliding Under-Sink Organizer with Pull-Out Baskets",
+    "brand": "SpaceKeeper (Illustrative Reference)",
+    "category": "Under-Sink Storage",
+    "categorySlug": "under-sink",
+    "description": "L-shaped under-sink pullout system featuring a narrow top tier to clear garbage disposals and drain pipes, with full-depth bottom slide.",
+    "bestFor": "Cramped sink cabinets with off-center P-trap plumbing",
+    "dimensions": {
+      "width": "8.5\"",
+      "depth": "15.5\"",
+      "height": "14.2\"",
+      "clearanceRequired": "At least 15\" cabinet height and 9\" side width"
+    },
+    "material": "High-Impact ABS Plastic with Stainless Steel Support Tubes",
+    "installationType": "Freestanding",
+    "renterFriendly": true,
+    "features": [
+      "Smooth sliding bottom tray with easy-grip front handle",
+      "Narrow upper basket designed to tuck beside sink basins",
+      "Removable hanging hooks and side cups for sponges",
+      "Tool-free 2-minute press-fit assembly"
+    ],
+    "pros": [
+      "Easily maneuvers around P-traps and water supply valves",
+      "Glides out smoothly so bottles in the back are accessible",
+      "Non-marring silicone foot grips prevent sliding"
+    ],
+    "cons": [
+      "Not designed for heavy gallon jugs on the top tier",
+      "Ensure vertical clearance allows tall spray bottles"
+    ],
+    "image": "/images/categories/under_sink.jpg",
+    "imageAlt": "Two-tier sliding under-sink organizer next to plumbing pipes",
+    "amazonUrl": "https://www.amazon.com/s?k=under+sink+organizers+and+storage",
+    "affiliateStatus": "placeholder",
+    "productStatus": "sample",
+    "sampleNotice": "Illustrative sample product for layout demonstration."
+  },
+  {
+    "id": "ushaped-pullout-wire-rack-05",
+    "name": "Heavy-Duty U-Shaped Under-Sink Pull-Out Wire Shelf",
+    "brand": "Rev-A-Shelf (Illustrative Reference)",
+    "category": "Under-Sink Storage",
+    "categorySlug": "under-sink",
+    "description": "Commercial-grade steel chrome wire drawer engineered specifically with a central cutout that contours around plumbing pipes and disposals.",
+    "bestFor": "Homeowners seeking permanent, heavy-duty sliding storage",
+    "dimensions": {
+      "width": "22.5\"",
+      "depth": "18.75\"",
+      "height": "5.5\"",
+      "clearanceRequired": "Cabinet opening minimum 24\" wide by 19\" deep"
+    },
+    "material": "Chrome-Plated Heavy Gauge Steel",
+    "installationType": "Screw-mount",
+    "renterFriendly": false,
+    "features": [
+      "Plumbing-contour center cutout for drain pipes",
+      "Ball-bearing full-extension 100 lb rated slides",
+      "Floor-mount installation with included template",
+      "Removable drip-guard liner for leak protection"
+    ],
+    "pros": [
+      "Industrial strength holds heavy bulk cleaners and soaps",
+      "Silky ball-bearing slide glide even under full load",
+      "Maximizes full cabinet width around center plumbing"
+    ],
+    "cons": [
+      "Requires drilling 4 bottom cabinet screws (not renter friendly)",
+      "Requires precise cabinet opening measurement"
+    ],
+    "image": "/images/categories/under_sink.jpg",
+    "imageAlt": "Heavy-duty chrome U-shaped under-sink pull-out drawer",
+    "amazonUrl": "https://www.amazon.com/s?k=u+shaped+under+sink+organizer",
+    "affiliateStatus": "placeholder",
+    "productStatus": "sample",
+    "sampleNotice": "Illustrative sample product for layout demonstration."
+  },
+  {
+    "id": "over-cabinet-door-organizer-06",
+    "name": "Over-the-Cabinet Door Cleaning & Foil Basket",
+    "brand": "SimpleHouseware (Illustrative Reference)",
+    "category": "Under-Sink Storage",
+    "categorySlug": "under-sink",
+    "description": "Foam-padded over-door steel basket that utilizes vertical cabinet door real estate for tall spray bottles, dishwashing wands, or trash bags.",
+    "bestFor": "Small kitchens and maximizing underutilized cabinet door space",
+    "dimensions": {
+      "width": "11.5\"",
+      "depth": "5.2\"",
+      "height": "15.0\"",
+      "clearanceRequired": "At least 5.5\" clearance between door interior and sink pipes"
+    },
+    "material": "Alloy Steel with Powder-Coated Muted Finish",
+    "installationType": "Adhesive / Non-drill",
+    "renterFriendly": true,
+    "features": [
+      "Dual mounting options: hang over door or drill mount",
+      "Ultra-thin hooks fit standard 3/4\" cabinet doors",
+      "Soft EVA foam padding prevents cabinet door scarring",
+      "Deep wire basket keeps tall bottles upright when door swings"
+    ],
+    "pros": [
+      "Zero footprint on the under-sink cabinet floor",
+      "Instant access to daily dish soap and kitchen sponges",
+      "Completely removable without leaving marks"
+    ],
+    "cons": [
+      "Door must be checked for clearance against internal shelving",
+      "Not suitable for extra-thick custom shaker doors (>0.8\")"
+    ],
+    "image": "/images/categories/under_sink.jpg",
+    "imageAlt": "Over cabinet door wire basket for spray bottles",
+    "amazonUrl": "https://www.amazon.com/s?k=over+the+cabinet+door+organizer",
+    "affiliateStatus": "placeholder",
+    "productStatus": "sample",
+    "sampleNotice": "Illustrative sample product for layout demonstration."
+  },
+  {
+    "id": "airtight-food-canister-set-07",
+    "name": "7-Piece Airtight Modular Food Storage Container Set",
+    "brand": "OXO Good Grips (Illustrative Reference)",
+    "category": "Pantry Organization",
+    "categorySlug": "pantry",
+    "description": "Stackable, BPA-free clear pantry canisters with push-button airtight silicone seals designed for modular shelf efficiency.",
+    "bestFor": "Baking flours, sugars, pasta, grains, and dry bulk goods",
+    "dimensions": {
+      "width": "Modular 6.3\" x 6.3\" footprint",
+      "depth": "Various heights (4.5\" to 12.5\")",
+      "height": "Stackable increments",
+      "clearanceRequired": "10\" to 14\" pantry shelf height recommended"
+    },
+    "material": "BPA-Free Clear Plastic with Silicone Gasket",
+    "installationType": "Freestanding",
+    "renterFriendly": true,
+    "features": [
+      "Signature push-button creates instant airtight vacuum seal",
+      "Corner spout shape for clean, controlled pouring",
+      "Modular stackable lids maximize vertical pantry cubic feet",
+      "Crystal clear bodies show fill levels at a glance"
+    ],
+    "pros": [
+      "Keeps dry ingredients fresh and pest-free",
+      "Uniform aesthetic transforms pantry visually",
+      "Dishwasher safe body containers for easy sanitizing"
+    ],
+    "cons": [
+      "Lids require hand washing and thorough drying before reuse",
+      "Higher initial investment than basic zip bags"
+    ],
+    "image": "/images/categories/pantry_storage.jpg",
+    "imageAlt": "Airtight modular food storage canisters with push button lids",
+    "amazonUrl": "https://www.amazon.com/s?k=airtight+food+storage+containers",
+    "affiliateStatus": "placeholder",
+    "productStatus": "sample",
+    "sampleNotice": "Illustrative sample product for layout demonstration."
+  },
+  {
+    "id": "bamboo-lazy-susan-turntable-08",
+    "name": "12-Inch 2-Tier Natural Bamboo Lazy Susan Turntable",
+    "brand": "Lipper International (Illustrative Reference)",
+    "category": "Pantry Organization",
+    "categorySlug": "pantry",
+    "description": "Smooth 360-degree rotating double turntable with raised retaining rims, preventing corner bottle loss in deep pantry shelves.",
+    "bestFor": "Oils, vinegars, condiment jars, and corner shelf dead zones",
+    "dimensions": {
+      "width": "12.0\" diameter",
+      "depth": "12.0\" diameter",
+      "height": "7.5\" total height (6.0\" lower clearance)",
+      "clearanceRequired": "Minimum 12.5\" deep shelf and 8.0\" shelf height"
+    },
+    "material": "Renewable Natural Bamboo with Steel Ball Bearings",
+    "installationType": "Freestanding",
+    "renterFriendly": true,
+    "features": [
+      "Precision steel ball-bearing track for effortless spin",
+      "0.75\" raised perimeter rim prevents bottles from tipping off",
+      "Two tier stacking doubles capacity in the same 12\" footprint",
+      "Warm natural grain finish coordinates with neutral kitchens"
+    ],
+    "pros": [
+      "Brings hard-to-reach corner pantry items forward in seconds",
+      "Eliminates knocked-over spice bottles and oil spills",
+      "Zero installation required"
+    ],
+    "cons": [
+      "Lower level height is restricted to bottles under 6.0\"",
+      "Requires at least a 12.5\" square shelf space"
+    ],
+    "image": "/images/categories/pantry_storage.jpg",
+    "imageAlt": "Two-tier bamboo lazy Susan turntable in pantry",
+    "amazonUrl": "https://www.amazon.com/s?k=bamboo+lazy+susan+turntable",
+    "affiliateStatus": "placeholder",
+    "productStatus": "sample",
+    "sampleNotice": "Illustrative sample product for layout demonstration."
+  },
+  {
+    "id": "expandable-shelf-riser-09",
+    "name": "3-Tier Expandable Kitchen Pantry Shelf Organizer Riser",
+    "brand": "Copco (Illustrative Reference)",
+    "category": "Pantry Organization",
+    "categorySlug": "pantry",
+    "description": "Stepped stadium-style riser with non-skid shelf lining that doubles canned food visibility and prevents back-shelf expiration.",
+    "bestFor": "Canned goods, soup tins, spice jars, and baking extracts",
+    "dimensions": {
+      "width": "14.5\" - 29.5\" (telescopic width)",
+      "depth": "9.5\"",
+      "height": "4.25\"",
+      "clearanceRequired": "At least 10\" shelf depth and 9\" shelf height with cans"
+    },
+    "material": "Durable Polypropylene with Thermoplastic Non-Skid Lining",
+    "installationType": "Expandable / Drop-in",
+    "renterFriendly": true,
+    "features": [
+      "Three 3-inch deep graduated steps for stadium canned view",
+      "Non-slip rubber shelf surface grips tins securely",
+      "Expands horizontally to match wide or narrow shelves",
+      "Low profile fits inside standard 10\"-12\" deep upper cabinets"
+    ],
+    "pros": [
+      "Allows instant reading of every can label without unstacking",
+      "Prevents duplicate buying and food waste",
+      "Budget-friendly with exceptional durability"
+    ],
+    "cons": [
+      "Will not hold oversized 28oz crushed tomato cans on top tier under shallow shelves",
+      "Plastic finish is utilitarian rather than fine wood"
+    ],
+    "image": "/images/categories/pantry_storage.jpg",
+    "imageAlt": "Stepped 3-tier expandable pantry can riser",
+    "amazonUrl": "https://www.amazon.com/s?k=expandable+pantry+shelf+riser",
+    "affiliateStatus": "placeholder",
+    "productStatus": "sample",
+    "sampleNotice": "Illustrative sample product for layout demonstration."
+  }
+]

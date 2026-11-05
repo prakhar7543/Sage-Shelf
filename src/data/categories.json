@@ -1,0 +1,68 @@
+[
+  {
+    "id": "kitchen-drawers",
+    "slug": "kitchen-drawers",
+    "name": "Kitchen Drawer Organization",
+    "heroHeadline": "Precision Drawer Systems That Eliminate Utensil Chaos",
+    "heroDescription": "Transform jammed flatware drawers and tangled deep cookware into calm, purposeful zones with custom-fit bamboo dividers, tiered spice inserts, and measurement-tested storage solutions.",
+    "heroImage": "/images/categories/kitchen_drawers.jpg",
+    "heroImageAlt": "Elegantly organized kitchen drawer with natural bamboo cutlery partitions",
+    "keyProblemsSolved": [
+      "Jammed drawer tracks caused by oversized cooking spoons catching the upper cabinet lip",
+      "Cutlery sliding backward every time a drawer is pulled open vigorously",
+      "Hidden duplicate spice bottles that expire before they are found",
+      "Deep lower drawers degenerating into a chaotic pile of mismatched pot lids"
+    ],
+    "measurementAdvice": "Always measure three interior cabinet dimensions with a rigid steel tape measure: the interior width (side-to-side), interior depth (front-to-back), and interior vertical clearance from drawer floor to cabinet box frame.",
+    "recommendedProductIds": [
+      "bamboo-expandable-organizer-01",
+      "spring-bamboo-dividers-02",
+      "tiered-drawer-spice-rack-03"
+    ],
+    "calculatorId": "drawer"
+  },
+  {
+    "id": "under-sink",
+    "slug": "under-sink",
+    "name": "Under-Sink Storage",
+    "heroHeadline": "Maximize Every Inch of Difficult Plumbing Space",
+    "heroDescription": "Conquer the most challenging cabinet in the American home. Work around garbage disposals, P-traps, and water lines with two-tier sliding caddies, U-shaped organizers, and non-drill door storage.",
+    "heroImage": "/images/categories/under_sink.jpg",
+    "heroImageAlt": "Bright organized under-sink kitchen cabinet with sliding metal baskets and eco-friendly cleaning supplies",
+    "keyProblemsSolved": [
+      "Awkward garbage disposals and P-trap drain lines blocking conventional shelving",
+      "Dark, unreachable back-cabinet voids where half-empty cleaning bottles accumulate",
+      "Drip damage and chemical spills warping untreated wood cabinet bases",
+      "Renter limitations preventing screw-in hardware installations"
+    ],
+    "measurementAdvice": "Measure the clearance on both the left and right sides of your center drain pipe separately. Check height clearance beneath the garbage disposal canister and leave at least 1 inch of buffer for water shutoff valve handles.",
+    "recommendedProductIds": [
+      "two-tier-sliding-undersink-04",
+      "ushaped-pullout-wire-rack-05",
+      "over-cabinet-door-organizer-06"
+    ],
+    "calculatorId": "under-sink"
+  },
+  {
+    "id": "pantry",
+    "slug": "pantry",
+    "name": "Pantry Organization",
+    "heroHeadline": "Curated Pantry Systems Built for Real Daily Life",
+    "heroDescription": "Design a pantry that looks like a calm boutique grocer and works effortlessly for busy households. Modular airtight containers, 360-degree turntables, and stepped risers keep every ingredient visible.",
+    "heroImage": "/images/categories/pantry_storage.jpg",
+    "heroImageAlt": "Pantry shelving with uniform airtight food jars, bamboo turntables, and woven storage baskets",
+    "keyProblemsSolved": [
+      "Bagged grains and open flour sacks attracting moisture, pantry moths, and spills",
+      "Corner dead zones where duplicate oils and sauces get pushed out of sight and expire",
+      "Tall, deep shelves where vertical cubic space goes entirely wasted",
+      "Lack of category zoning leading to messy daily rummaging before dinner"
+    ],
+    "measurementAdvice": "Measure shelf depth carefully. Standard kitchen wall cabinets are 11\"-12\" deep, while pantry closets range from 14\" to 24\" deep. Select modular canisters whose footprints multiply cleanly across your usable shelf width.",
+    "recommendedProductIds": [
+      "airtight-food-canister-set-07",
+      "bamboo-lazy-susan-turntable-08",
+      "expandable-shelf-riser-09"
+    ],
+    "calculatorId": "pantry"
+  }
+]

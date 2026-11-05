@@ -1,0 +1,1482 @@
+# ROLE
+
+Act as a senior product designer, award-winning UI/UX designer, SEO architect, React engineer, performance optimization specialist, and affiliate marketing website strategist.
+
+You have extensive experience building premium editorial websites, home organization platforms, Amazon Associates websites, and high-performance static websites.
+
+Your task is to design and develop a complete, production-quality Amazon affiliate marketing website named **Sage & Shelf**.
+
+Do not create a generic blog template. Build a distinctive, visually impressive, commercially viable home organization publication that can compete with established websites.
+
+# OBJECTIVE
+
+Build a beautiful, fast, SEO-friendly, mobile-first static website for the US market, focused exclusively on three content categories:
+
+1. Kitchen Drawer Organization
+2. Under-Sink Storage
+3. Pantry Organization
+
+The website must combine:
+
+- Premium editorial publishing.
+- Practical kitchen organization guides.
+- Curated Amazon product recommendations.
+- Detailed product comparisons.
+- Measurement-based shopping assistance.
+- Functional browser-based calculators.
+- Excellent navigation and content discovery.
+- Pinterest-friendly visual presentation.
+- Strong organic SEO foundations.
+
+The website should look and feel more premium, useful, organized, and trustworthy than the competitor websites analyzed in the supplied research documents.
+
+**The final result must be a complete working React project, not just a visual prototype or homepage mockup.**
+
+# CONTEXT
+
+## 1. Brand Identity
+
+Website name: **Sage & Shelf**
+
+Proposed tagline: *Thoughtful Spaces. Beautifully Organized.*
+
+Brand personality:
+- Sophisticated.
+- Friendly.
+- Practical.
+- Trustworthy.
+- Calm.
+- Inspirational.
+- Knowledgeable without sounding overly technical.
+
+Target audience:
+- United States homeowners.
+- Apartment dwellers.
+- Renters.
+- People with small kitchens.
+- People interested in home organization.
+- Consumers shopping for practical kitchen storage products.
+
+Use US English throughout the website.
+
+Use inches and feet for measurements, and USD for monetary values.
+
+## 2. Competitor Research
+
+Use the two supplied competitor research documents as the primary strategic reference.
+
+The research covers:
+
+- RealSimple.
+- The Kitchn.
+- Simple Organized Home.
+- Nexora Hub.
+- Home & Texture.
+- Smart Space Kitchen.
+- Harbour Breeze Home.
+- Just a Girl and Her Blog.
+- The Home Edit.
+- NEAT Method.
+- The Container Store.
+- ShelfGenie.
+- Deer & Oak and other home organization blogs.
+
+### Competitor strengths to learn from
+
+- Editorial-quality photography.
+- Attractive product presentation.
+- Engaging list-based articles.
+- Strong content categorization.
+- Clear product shopping links.
+- Lifestyle-oriented storytelling.
+- Clean navigation.
+- Inspiring before-and-after organization visuals.
+
+### Competitor weaknesses to overcome
+
+- Insufficient product dimensions.
+- Generic product descriptions.
+- Limited product comparison tables.
+- Poor measurement assistance.
+- Lack of plumbing-aware under-sink solutions.
+- Limited renter-friendly recommendations.
+- Fragmented article-to-product journeys.
+- Cluttered advertisements and distracting widgets.
+- Limited interactive tools.
+- Generic, repetitive affiliate content.
+
+### Our competitive positioning
+
+Sage & Shelf should combine the visual sophistication of NEAT Method with the practical inspiration of The Home Edit and the accessibility of specialist organization blogs.
+
+However, do not copy their layouts, branding, images, or visual identity.
+
+Our primary competitive advantage should be:
+
+**Beautiful inspiration + practical measurements + genuinely useful product recommendations.**
+
+# INSTRUCTIONS
+
+## STEP 1 — TECHNICAL ARCHITECTURE
+
+Build the website using:
+
+- React.
+- Vite.
+- JavaScript or TypeScript (prefer TypeScript).
+- Modern CSS or CSS Modules.
+- Reusable React components.
+- MDX for article content.
+- JSON for centralized product management.
+- React Router or an equivalent compatible routing solution.
+
+### Mandatory static rendering requirements
+
+The website must be compatible with Cloudflare Pages Free.
+
+Use a reliable React + Vite static site generation or prerendering solution, such as Vike with React.
+
+Every important route must generate actual HTML during the production build.
+
+Do not build a client-side-only SPA that leaves article content unavailable in the initial HTML.
+
+Requirements:
+
+1. Pre-render the homepage.
+2. Pre-render all category pages.
+3. Pre-render every MDX article.
+4. Pre-render About, Contact and legal pages.
+5. Generate SEO metadata during the build.
+6. Generate sitemap.xml automatically.
+7. Generate robots.txt.
+8. Ensure all internal links resolve correctly.
+9. Support direct access to article URLs.
+10. Support browser refresh on every route.
+
+The production build must generate a deployable static `dist` directory.
+
+Do not require a traditional backend, server, paid database or paid API.
+
+Keep the architecture portable to other static hosting providers.
+
+## STEP 2 — VISUAL DESIGN SYSTEM
+
+Create a distinctive premium visual identity.
+
+Use the following palette:
+
+| Purpose | Color | Hex |
+|---|---|---|
+| Primary background | Warm Alabaster | #F9F8F6 |
+| Secondary background | Oat Linen | #EFECE6 |
+| Primary accent | Muted Sage | #7A8C7D |
+| Main typography | Deep Slate | #2C3531 |
+| Conversion accent | Soft Terracotta | #C86D51 |
+| White surfaces | Pure White | #FFFFFF |
+
+### Color psychology
+
+- Warm cream should create a feeling of cleanliness and tranquility.
+- Sage green should communicate freshness, organization and trust.
+- Deep charcoal should provide readability and authority.
+- Terracotta should draw attention to important actions without overwhelming the interface.
+- Natural wood textures should create warmth and familiarity.
+
+Avoid excessive bright colors, rainbow interfaces, harsh gradients and distracting animations.
+
+Use color intentionally.
+
+### Typography
+
+Use a premium editorial typography combination:
+
+- Headings: Playfair Display or Instrument Serif.
+- Body: Inter or Plus Jakarta Sans.
+- UI labels: Inter.
+- Product specifications: highly legible sans-serif typography.
+
+Establish a consistent hierarchy for:
+
+- H1.
+- H2.
+- H3.
+- H4.
+- Body text.
+- Captions.
+- Product specifications.
+- Navigation.
+- Buttons.
+
+Use generous line spacing and comfortable reading widths.
+
+### Design characteristics
+
+- Generous whitespace.
+- Beautiful image compositions.
+- Subtle rounded corners.
+- Refined card layouts.
+- Consistent spacing.
+- Elegant hover effects.
+- Restrained shadows.
+- Smooth but lightweight transitions.
+- Excellent visual hierarchy.
+
+The overall appearance should resemble a premium interior design and lifestyle editorial publication.
+
+## STEP 3 — BRANDING AND LOGO
+
+Create a simple, memorable Sage & Shelf brand identity.
+
+Logo direction:
+
+- Elegant wordmark.
+- Minimal botanical or shelving-inspired icon.
+- Sage green and charcoal colors.
+- Clean and recognizable at small sizes.
+
+Create:
+
+- Main logo.
+- Compact logo for mobile.
+- Favicon.
+- Browser theme color.
+- Consistent iconography.
+
+Do not make the logo excessively complicated.
+
+## STEP 4 — WEBSITE NAVIGATION
+
+Create a polished, responsive navigation system.
+
+Main navigation:
+
+- Home.
+- Kitchen Drawers.
+- Under-Sink Storage.
+- Pantry Organization.
+- Blog.
+- About.
+
+Include:
+
+- Search icon and search interface.
+- Mobile hamburger menu.
+- Clear active navigation states.
+- Accessible dropdowns if needed.
+- Sticky header with restrained behavior.
+
+Keep navigation simple and intuitive.
+
+Avoid unnecessary menu items.
+
+## STEP 5 — HOMEPAGE DESIGN
+
+Build a premium hybrid editorial and shopping homepage.
+
+The homepage should contain the following sections.
+
+### A. Announcement Strip
+
+A small, elegant announcement area.
+
+Example:
+
+"Helping you create a more organized kitchen, one smart solution at a time."
+
+Keep it visually subtle.
+
+### B. Main Header
+
+Include:
+
+- Sage & Shelf logo.
+- Main navigation.
+- Search.
+- Mobile menu.
+
+The header must look refined and work perfectly on mobile.
+
+### C. Hero Section
+
+Create an impressive editorial hero featuring a beautifully organized kitchen.
+
+Use a large, high-quality lifestyle image showing:
+
+- Warm natural kitchen cabinetry.
+- Organized countertops.
+- Beautiful storage containers.
+- Natural materials.
+- Soft daylight.
+- A welcoming, realistic home environment.
+
+Suggested headline:
+
+"Make Room for a More Organized Kitchen."
+
+Suggested supporting copy:
+
+"Thoughtful storage ideas, practical organizing guides, and carefully selected products to help you make the most of every kitchen space."
+
+Primary CTA:
+"Explore Organization Ideas"
+
+Secondary CTA:
+"Find Your Storage Solution"
+
+The hero should feel premium rather than like an aggressive sales landing page.
+
+### D. Three Main Category Cards
+
+Show three visually attractive category cards.
+
+1. Kitchen Drawer Organization.
+2. Under-Sink Storage.
+3. Pantry Organization.
+
+Each card must include:
+
+- Beautiful category image.
+- Category title.
+- Short description.
+- Explore button.
+- Relevant SEO-friendly internal link.
+
+### E. Featured Organization Guides
+
+Show selected editorial articles using attractive image cards.
+
+Each card should include:
+
+- Featured image.
+- Category label.
+- Article title.
+- Short description.
+- Reading time.
+- Author.
+- Publication date.
+
+### F. Shop Smart / Editor's Picks
+
+Create an attractive product recommendation section.
+
+Show curated storage products with:
+
+- Product image.
+- Product name.
+- Best-use description.
+- Important specifications.
+- Product category.
+- Amazon CTA.
+
+Do not fabricate ratings, reviews, prices or product performance claims.
+
+### G. Measurement Tools Section
+
+Highlight the three unique measurement calculators.
+
+- Kitchen Drawer Calculator.
+- Under-Sink Space Calculator.
+- Pantry Shelf Calculator.
+
+Use an attractive card layout with concise explanations and working links.
+
+Suggested headline:
+
+"Measure First. Organize Smarter."
+
+### H. Popular Guides
+
+Show popular or featured articles.
+
+Use a responsive editorial grid.
+
+### I. Organization Inspiration
+
+Create a visually engaging section featuring:
+
+- Before-and-after kitchen inspiration.
+- Drawer organization.
+- Pantry transformations.
+- Under-sink storage ideas.
+
+### J. Newsletter
+
+Do not include a newsletter subscription, email signup, mailing-list form or newsletter backend in the initial website.
+
+### K. Footer
+
+Include:
+
+- Brand logo.
+- Short brand description.
+- Main categories.
+- Important website pages.
+- Affiliate disclosure.
+- Privacy policy.
+- Terms.
+- Contact.
+- Social links as configurable placeholders.
+
+Make the affiliate disclosure accessible.
+
+## STEP 6 — CATEGORY PAGES
+
+Build three individual category landing pages.
+
+### Category 1: Kitchen Drawer Organization
+
+Include:
+
+- Hero image.
+- Category introduction.
+- Drawer organization guides.
+- Utensil organizer recommendations.
+- Bamboo drawer dividers.
+- Expandable drawer organizers.
+- Knife and spice storage ideas.
+- Featured articles.
+- Related measurement calculator.
+
+### Category 2: Under-Sink Storage
+
+Include:
+
+- Hero image.
+- Category introduction.
+- Under-sink organization guides.
+- Two-tier sliding organizers.
+- U-shaped organizers.
+- Door-mounted storage.
+- Cleaning product storage.
+- Plumbing-aware storage advice.
+- Featured articles.
+- Under-sink calculator.
+
+### Category 3: Pantry Organization
+
+Include:
+
+- Hero image.
+- Category introduction.
+- Pantry organization guides.
+- Airtight food containers.
+- Lazy Susans.
+- Shelf risers.
+- Stackable bins.
+- Labels and storage systems.
+- Featured articles.
+- Pantry calculator.
+
+Each category page must have unique copy, SEO metadata, internal links and a useful content hierarchy.
+
+## STEP 7 — MDX ARTICLE MANAGEMENT SYSTEM
+
+This is one of the most important requirements.
+
+Create a proper MDX-based publishing architecture.
+
+Every article must exist as an independent `.mdx` file.
+
+Example:
+
+```text
+src/
+  content/
+    articles/
+      kitchen-drawer-organization.mdx
+      under-sink-storage.mdx
+      pantry-organization.mdx
+```
+
+Each MDX article must support frontmatter:
+
+```yaml
+---
+title: "The Ultimate Guide to Kitchen Drawer Organization"
+slug: "kitchen-drawer-organization"
+category: "Kitchen Drawer Organization"
+description: "Practical ways to organize kitchen drawers..."
+author: "Sage & Shelf Editorial Team"
+publishedAt: "2026-11-05"
+updatedAt: "2026-11-05"
+featuredImage: "/images/articles/kitchen-drawer-hero.webp"
+featuredImageAlt: "Beautifully organized kitchen drawer"
+readingTime: 8
+featured: true
+---
+```
+
+Build a reusable MDX article renderer.
+
+The renderer must automatically provide:
+
+- Article title.
+- Category.
+- Author information.
+- Publication date.
+- Updated date.
+- Reading time.
+- Featured image.
+- Table of contents.
+- Article content.
+- Related articles.
+- Product recommendations.
+- Affiliate disclosure.
+- FAQs.
+
+### Reusable MDX components
+
+Implement:
+
+1. ProductCard.
+2. AmazonButton.
+3. ProductComparisonTable.
+4. ProsCons.
+5. TipBox.
+6. WarningBox.
+7. InfoBox.
+8. ImageGallery.
+9. VideoEmbed.
+10. TableOfContents.
+11. FAQSection.
+12. ProductGrid.
+13. RelatedArticles.
+14. MeasurementGuide.
+15. ImageWithCaption.
+16. BeforeAfterGallery.
+
+### Supported article content
+
+MDX must support:
+
+- Standard paragraphs.
+- H1-H4 headings.
+- Bold and italic text.
+- Hyperlinks.
+- Images.
+- GIFs.
+- Video embeds.
+- Captions.
+- Tables.
+- Ordered lists.
+- Unordered lists.
+- Blockquotes.
+- Custom colored content sections.
+- Product cards.
+- Comparison tables.
+- FAQ sections.
+
+Use the existing brand design system for all custom components.
+
+### Article visual design
+
+Do not make articles look like plain Markdown documents.
+
+Create a premium editorial reading experience.
+
+Include:
+
+- Comfortable reading width.
+- Beautiful article typography.
+- Attractive section headings.
+- Proper image placement.
+- Responsive comparison tables.
+- Product recommendation cards.
+- Subtle highlighted tips.
+- Clear section separation.
+- Easy navigation.
+- Related article recommendations.
+
+On desktop, optionally use a sticky table of contents when it improves usability.
+
+On mobile, use a collapsible table of contents.
+
+## STEP 8 — INITIAL SAMPLE ARTICLES
+
+Create exactly three complete, polished sample articles.
+
+These must demonstrate the full MDX publishing system.
+
+### Article 1: Kitchen Drawer Organization
+
+Suggested title:
+
+"The Ultimate Guide to Kitchen Drawer Organization: Smart Ideas That Actually Work"
+
+Include:
+
+- Why kitchen drawers become cluttered.
+- How to measure drawer dimensions.
+- Choosing the right drawer organizers.
+- Utensil organization.
+- Bamboo dividers.
+- Deep drawer organization.
+- Pots and pans drawer solutions.
+- Product recommendations.
+- Comparison table.
+- Pros and cons.
+- Practical organization tips.
+- FAQs.
+
+### Article 2: Under-Sink Storage
+
+Suggested title:
+
+"Under-Sink Organization Ideas: How to Maximize Every Inch of Cabinet Space"
+
+Include:
+
+- Common under-sink storage problems.
+- Measuring cabinet dimensions.
+- Working around plumbing.
+- Garbage disposal clearance.
+- U-shaped organizers.
+- Two-tier sliding baskets.
+- Door-mounted organizers.
+- Renter-friendly storage options.
+- Product recommendations.
+- Comparison table.
+- FAQs.
+
+### Article 3: Pantry Organization
+
+Suggested title:
+
+"How to Organize Your Kitchen Pantry: A Practical Guide to a Beautiful, Functional Space"
+
+Include:
+
+- Pantry decluttering.
+- Measuring shelf dimensions.
+- Pantry zoning.
+- Airtight containers.
+- Lazy Susans.
+- Shelf risers.
+- Stackable bins.
+- Snack organization.
+- Labels and inventory.
+- Product recommendations.
+- Comparison table.
+- Maintenance tips.
+- FAQs.
+
+### Article quality requirements
+
+The articles must provide genuine value.
+
+Avoid repetitive AI-style paragraphs, keyword stuffing and unnecessary filler.
+
+Use descriptive headings, practical examples and clear explanations.
+
+Write naturally for US homeowners and renters.
+
+Include relevant internal links between the three articles.
+
+Do not pretend that sample articles are based on personal product testing or firsthand experience.
+
+## STEP 9 — CENTRALIZED PRODUCT MANAGEMENT
+
+Create a JSON-based product database.
+
+Example:
+
+```text
+src/
+  data/
+    products.json
+```
+
+Each product should support fields such as:
+
+```json
+{
+  "id": "bamboo-drawer-organizer-001",
+  "name": "Expandable Bamboo Drawer Organizer",
+  "category": "Kitchen Drawer Organization",
+  "description": "A flexible organizer for kitchen utensils.",
+  "bestFor": "Utensil organization",
+  "dimensions": {
+    "width": "12-20 inches",
+    "depth": "17 inches",
+    "height": "2 inches"
+  },
+  "material": "Bamboo",
+  "features": [
+    "Expandable design",
+    "Natural material",
+    "Multiple compartments"
+  ],
+  "image": "/images/products/bamboo-drawer-organizer.webp",
+  "amazonUrl": "",
+  "affiliateStatus": "placeholder",
+  "productStatus": "sample"
+}
+```
+
+Treat these values as illustrative sample data, not verified specifications.
+
+### Product architecture
+
+- Products must have unique IDs.
+- MDX articles must reference products by ID.
+- Reusable components must retrieve product details from the central JSON database.
+- Updating a product must update its presentation everywhere.
+- Missing product IDs must generate clear build-time errors.
+- Support sample products and actual Amazon affiliate products.
+- Allow easy replacement of placeholder affiliate links.
+- Keep product information independent of article content.
+
+Create sample products across all three categories.
+
+Do not invent actual Amazon URLs.
+
+Do not fabricate prices, availability, ratings, customer reviews, warranties or verified product specifications.
+
+For unknown specifications, display "Check manufacturer specifications" or omit the field.
+
+## STEP 10 — AMAZON AFFILIATE INTEGRATION
+
+The user has not yet registered with Amazon Associates US.
+
+Build the website so that affiliate links can be activated later.
+
+Create centralized configuration:
+
+```text
+src/
+  config/
+    affiliate.ts
+```
+
+Support:
+
+- Configurable Amazon Associates tracking ID.
+- Centralized affiliate link handling.
+- Placeholder affiliate links.
+- Real Amazon product URLs.
+- Reusable affiliate buttons.
+- Clear disclosure components.
+
+Suggested CTA:
+
+"Check Price on Amazon"
+
+Other CTA variations:
+
+- View on Amazon.
+- See Product Details.
+- Check Availability.
+
+Do not show fake prices or fake discounts.
+
+Do not scrape Amazon product pages.
+
+Do not assume that product images, ratings or pricing may be freely copied from Amazon.
+
+Design the system to support authorized product data sources when the account becomes eligible.
+
+Display the required disclosure clearly:
+
+"As an Amazon Associate I earn from qualifying purchases."
+
+Place an appropriate affiliate disclosure near relevant recommendations and within the website's disclosure page.
+
+Follow the current Amazon Associates Program Policies and applicable US advertising disclosure requirements.
+
+## STEP 11 — INTERACTIVE MEASUREMENT CALCULATORS
+
+Build three basic but genuinely functional browser-based calculators.
+
+Do not implement advanced 3D visualization, drag-and-drop planning or complex spatial simulation.
+
+All calculations should run locally in the browser.
+
+### A. Kitchen Drawer Calculator
+
+Inputs:
+
+- Internal drawer width.
+- Internal drawer depth.
+- Internal drawer height.
+
+Features:
+
+- Validate measurement inputs.
+- Calculate internal drawer footprint.
+- Show measurements in inches.
+- Show calculated area.
+- Provide guidance about selecting organizer dimensions.
+- Include a sensible clearance recommendation that users can adjust.
+- Explain that product dimensions must be checked before purchasing.
+
+Show results immediately after valid input.
+
+### B. Under-Sink Space Calculator
+
+Inputs:
+
+- Cabinet internal width.
+- Cabinet internal height.
+- Cabinet internal depth.
+- Plumbing obstruction width.
+- Plumbing obstruction height.
+- Plumbing obstruction depth.
+
+Features:
+
+- Calculate the approximate usable storage volume.
+- Estimate remaining clearance.
+- Show a clear visual result using simple diagrams or CSS illustrations.
+- Explain the limitations of simplified rectangular calculations.
+- Recommend measuring pipes, drain traps and disposal units separately.
+- Never claim that a particular product is guaranteed to fit.
+
+Make clear that this is an approximate planning tool, not an engineering-grade spatial solver.
+
+### C. Pantry Shelf Calculator
+
+Inputs:
+
+- Shelf width.
+- Shelf depth.
+- Shelf height.
+
+Features:
+
+- Calculate shelf footprint and approximate volume.
+- Estimate the number of containers that could fit using user-entered container dimensions.
+- Allow a small adjustable clearance.
+- Show simple visual representations of the estimated arrangement.
+- Explain that actual shelf capacity depends on container shape and spacing.
+
+### Calculator UX requirements
+
+All calculators must:
+
+- Work without a backend.
+- Validate inputs.
+- Prevent negative measurements.
+- Handle empty inputs.
+- Handle decimal measurements.
+- Display results clearly.
+- Provide a reset button.
+- Be responsive on mobile.
+- Use accessible form labels.
+- Explain calculation assumptions.
+
+## STEP 12 — PRODUCT COMPARISON TOOL
+
+Create a functional product comparison interface.
+
+Allow visitors to compare products based on:
+
+- Product name.
+- Category.
+- Dimensions.
+- Material.
+- Key features.
+- Best use case.
+- Installation type.
+- Renter-friendly suitability, only when verified.
+
+Support comparing two or three products.
+
+Include a responsive comparison layout.
+
+On mobile, use stacked comparison cards rather than an unreadable wide table.
+
+All information must come from the centralized product JSON database.
+
+## STEP 13 — WEBSITE SEARCH AND FILTERING
+
+Implement functional article search.
+
+Users should be able to search by:
+
+- Article title.
+- Article description.
+- Category.
+- Relevant tags.
+
+Create filters for:
+
+- Kitchen Drawer Organization.
+- Under-Sink Storage.
+- Pantry Organization.
+- How-to Guides.
+- Product Roundups.
+- Measurement Guides.
+
+Requirements:
+
+- Instant client-side search.
+- Clear empty state.
+- Search result cards.
+- Clear filter controls.
+- Mobile-friendly interface.
+- No backend or paid search API.
+
+## STEP 14 — REQUIRED WEBSITE PAGES
+
+Create these pages:
+
+1. Home.
+2. Kitchen Drawer Organization.
+3. Under-Sink Storage.
+4. Pantry Organization.
+5. Blog / All Articles.
+6. Individual Article Pages.
+7. About Us.
+8. Contact Us.
+9. Affiliate Disclosure.
+10. Privacy Policy.
+11. Terms & Conditions.
+12. Editorial Policy / How We Choose Products.
+13. Cookie Policy.
+14. Custom 404 Page.
+
+### About Us
+
+Introduce Sage & Shelf and its mission to help readers create practical, beautiful and organized kitchens.
+
+Do not fabricate a founder biography or personal credentials.
+
+### Contact Us
+
+Create a functional contact-information layout.
+
+Do not create a fake backend contact form.
+
+Provide a configurable email address placeholder.
+
+### Affiliate Disclosure
+
+Explain how affiliate links work and how qualifying purchases may generate commissions.
+
+### Privacy Policy
+
+Provide a clearly marked starter policy covering the site's actual data practices.
+
+Do not claim that the website collects or stores information it does not collect.
+
+### Terms & Conditions
+
+Provide a starter terms page with appropriate disclaimers.
+
+### Editorial Policy
+
+Explain:
+
+- How products are selected.
+- How specifications are checked.
+- How recommendations are organized.
+- How affiliate relationships work.
+- How errors and outdated information are handled.
+
+### Cookie Policy
+
+Accurately describe the cookies and analytics technologies actually implemented.
+
+Do not claim compliance with every legal requirement automatically.
+
+Clearly indicate where the website owner must obtain legal review or supply business-specific information.
+
+## STEP 15 — SEO ARCHITECTURE
+
+SEO must be implemented as part of the architecture, not added as an afterthought.
+
+### Technical SEO
+
+Implement:
+
+- Server-generated or pre-rendered HTML.
+- Unique page titles.
+- Unique meta descriptions.
+- Canonical URLs.
+- XML sitemap.
+- Robots.txt.
+- Semantic HTML.
+- Correct heading hierarchy.
+- Breadcrumb navigation.
+- Open Graph metadata.
+- Social sharing metadata.
+- Descriptive image alt text.
+- Clean URLs.
+- Proper internal links.
+- Custom 404 page.
+- Mobile-first design.
+
+### Structured data
+
+Implement appropriate JSON-LD where justified:
+
+- Organization.
+- WebSite.
+- WebPage.
+- Article or BlogPosting.
+- BreadcrumbList.
+- Product only when accurate and eligible.
+
+Do not fabricate:
+
+- Product ratings.
+- Review counts.
+- Aggregate ratings.
+- Prices.
+- Availability.
+- Author credentials.
+
+Do not add misleading structured data simply to obtain rich results.
+
+Use FAQ markup only when appropriate and consistent with current Google requirements. Do not promise rich-result eligibility.
+
+### Keyword strategy
+
+Build the content architecture around long-tail US search intent.
+
+Example kitchen drawer keywords:
+
+- kitchen drawer organization ideas.
+- best kitchen drawer organizers.
+- how to organize deep kitchen drawers.
+- kitchen utensil drawer organization.
+- expandable kitchen drawer dividers.
+
+Example under-sink keywords:
+
+- under sink organization ideas.
+- best under sink organizers.
+- under sink storage for small kitchens.
+- how to organize under kitchen sink.
+- under sink organizer for plumbing pipes.
+
+Example pantry keywords:
+
+- pantry organization ideas.
+- best pantry storage containers.
+- how to organize a small pantry.
+- kitchen pantry shelf organization.
+- pantry storage ideas for small spaces.
+
+These are initial topic targets, not verified search-volume claims.
+
+Avoid keyword stuffing.
+
+### Internal linking
+
+Create meaningful connections between:
+
+- Related articles.
+- Category pages.
+- Product recommendations.
+- Measurement calculators.
+- Relevant guides.
+
+Ensure every article has useful internal links.
+
+## STEP 16 — IMAGE AND MEDIA SYSTEM
+
+Use a combination of:
+
+1. AI-generated lifestyle imagery.
+2. Properly licensed royalty-free photography.
+3. Authorized authentic product photography.
+4. Branded Pinterest graphics.
+
+### Image style
+
+Use realistic, premium photography featuring:
+
+- Natural daylight.
+- Warm wooden cabinets.
+- Organized drawers.
+- Beautiful pantry arrangements.
+- Clean under-sink cabinets.
+- Neutral kitchens.
+- Natural textures.
+- Realistic household environments.
+
+Avoid images that look overly artificial or visually inconsistent.
+
+### Image management
+
+Organize assets:
+
+```text
+public/
+  images/
+    brand/
+    homepage/
+    categories/
+    articles/
+    products/
+    pinterest/
+    icons/
+```
+
+### Performance
+
+- Convert suitable images to WebP or AVIF.
+- Use responsive image sizes.
+- Use descriptive filenames.
+- Add width and height attributes.
+- Lazy-load below-the-fold images.
+- Prioritize the hero image.
+- Use appropriate image compression.
+- Avoid oversized assets.
+- Optimize GIFs.
+- Prefer lightweight video embeds or click-to-load previews.
+
+Use only properly licensed or generated imagery.
+
+Do not present AI-generated lifestyle imagery as authentic product photographs.
+
+Do not use generated images to misrepresent specific Amazon products.
+
+### Pinterest
+
+Create a consistent Pinterest-friendly visual system.
+
+Support 2:3 vertical promotional images.
+
+Use:
+
+- Brand colors.
+- Readable headline overlays.
+- Attractive lifestyle backgrounds.
+- Consistent typography.
+- Subtle Sage & Shelf branding.
+
+Provide reusable graphic templates or design specifications.
+
+## STEP 17 — RESPONSIVE UX
+
+Design mobile-first.
+
+Test layouts at:
+
+- 360px.
+- 390px.
+- 768px.
+- 1024px.
+- 1440px.
+
+Ensure:
+
+- Navigation works on mobile.
+- Article images scale properly.
+- Comparison tables remain usable.
+- Product cards stack correctly.
+- Buttons have appropriate touch targets.
+- Calculator inputs are comfortable to use.
+- Text remains readable.
+- No horizontal overflow exists.
+- Footer columns adapt gracefully.
+
+Use accessible color contrast and keyboard navigation.
+
+Respect reduced-motion preferences.
+
+## STEP 18 — PERFORMANCE OPTIMIZATION
+
+Performance is a primary requirement.
+
+Target excellent Core Web Vitals and a Lighthouse score of 90+ where reasonably achievable.
+
+Pay special attention to:
+
+- Largest Contentful Paint.
+- Interaction to Next Paint.
+- Cumulative Layout Shift.
+
+Implement:
+
+- Minimal JavaScript.
+- Code splitting where appropriate.
+- Lazy loading.
+- Optimized fonts.
+- Font preloading when useful.
+- Optimized images.
+- Minimal dependencies.
+- No unnecessary animation libraries.
+- No heavy third-party scripts.
+- No intrusive popups.
+- No unnecessary advertisements.
+- No layout shifts from image loading.
+
+Keep the website lightweight.
+
+Do not sacrifice accessibility or usability merely to improve a performance score.
+
+## STEP 19 — CLOUDFLARE PAGES FREE DEPLOYMENT
+
+The deployment target is Cloudflare Pages Free.
+
+Mandatory requirements:
+
+1. React + Vite static production build.
+2. Static prerendering of important routes.
+3. Build output directory: `dist`.
+4. GitHub integration.
+5. Automatic production deployments.
+6. Preview deployments where supported.
+7. No mandatory Workers.
+8. No mandatory Pages Functions.
+9. No mandatory D1 database.
+10. No paid third-party services required for normal website operation.
+11. No paid API dependency.
+12. Portable static output.
+
+Respect the supplied Cloudflare Pages constraints:
+
+- Maximum individual static asset size: 25 MiB.
+- Maximum deployed file count: 20,000 files.
+
+Add a build-validation script that checks:
+
+- Individual file sizes.
+- Total deployed file count.
+- Missing assets.
+- Missing internal routes.
+- Invalid article references.
+- Broken product references.
+
+Keep media assets compressed and organized.
+
+### Domain configuration
+
+The user has not purchased a domain yet.
+
+Create a central site configuration:
+
+```text
+src/
+  config/
+    site.ts
+```
+
+Support a configurable production domain.
+
+Do not hardcode an assumed domain.
+
+Use a temporary Cloudflare Pages URL until a custom domain is connected.
+
+Generate canonical URLs and sitemap entries from the configured site URL.
+
+Avoid publishing incorrect canonical URLs.
+
+### Deployment documentation
+
+Create a detailed README containing:
+
+- Local installation.
+- Development commands.
+- Production build.
+- Preview commands.
+- GitHub setup.
+- Cloudflare Pages setup.
+- Environment configuration.
+- Custom domain connection.
+- Article publishing.
+- Product management.
+- Image optimization.
+- SEO configuration.
+
+Clearly distinguish free functionality from optional paid services.
+
+Do not claim that an external service is free without verifying its current plan.
+
+## STEP 20 — PROJECT STRUCTURE
+
+Create a clean, scalable architecture similar to:
+
+```text
+sage-and-shelf/
+│
+├── public/
+│   ├── images/
+│   │   ├── brand/
+│   │   ├── homepage/
+│   │   ├── categories/
+│   │   ├── articles/
+│   │   ├── products/
+│   │   └── pinterest/
+│   ├── favicon.ico
+│   ├── robots.txt
+│   └── sitemap.xml
+│
+├── src/
+│   ├── components/
+│   │   ├── layout/
+│   │   ├── navigation/
+│   │   ├── articles/
+│   │   ├── products/
+│   │   ├── calculators/
+│   │   ├── comparison/
+│   │   ├── search/
+│   │   └── common/
+│   │
+│   ├── content/
+│   │   └── articles/
+│   │
+│   ├── data/
+│   │   ├── products.json
+│   │   ├── categories.json
+│   │   └── articles.json
+│   │
+│   ├── config/
+│   │   ├── site.ts
+│   │   ├── affiliate.ts
+│   │   └── seo.ts
+│   │
+│   ├── pages/
+│   ├── layouts/
+│   ├── hooks/
+│   ├── utils/
+│   ├── styles/
+│   └── types/
+│
+├── scripts/
+│   └── validate-build.js
+│
+├── README.md
+├── package.json
+├── vite.config.ts
+└── tsconfig.json
+```
+
+You may improve this structure where technically justified, but preserve the separation between content, products, components and configuration.
+
+# NOTES
+
+## A. Important Scope Decisions
+
+The following decisions are final:
+
+| Requirement | Decision |
+|---|---|
+| Brand | Sage & Shelf |
+| Market | United States |
+| Affiliate marketplace | Amazon.com |
+| Frontend | React + Vite |
+| Content | MDX |
+| Product database | JSON + MDX references |
+| Hosting | Cloudflare Pages Free |
+| Domain | Not purchased yet |
+| Initial articles | Exactly 3 |
+| Calculators | Basic functional calculators |
+| Product comparison | Functional |
+| Search | Functional |
+| Newsletter | Not included |
+| Product data | Sample + real product support |
+| Visual style | Premium Hybrid |
+| Images | AI-generated + royalty-free |
+| Amazon account | Not registered yet |
+
+## B. Do Not Build These Features
+
+Avoid scope expansion.
+
+Do not build:
+
+- User accounts.
+- Login and registration.
+- Shopping carts.
+- Checkout.
+- Backend databases.
+- Advanced 3D planners.
+- Drag-and-drop visual planners.
+- Newsletter systems.
+- Complex analytics dashboards.
+- Paid API integrations.
+- Mandatory subscriptions.
+- Heavy animation systems.
+- Unnecessary third-party widgets.
+
+The goal is a lightweight editorial affiliate website with genuinely useful tools.
+
+## C. Important Accuracy Requirements
+
+Never invent product specifications.
+
+Never fabricate product reviews or ratings.
+
+Never present illustrative product information as verified information.
+
+Clearly label sample products.
+
+Do not claim that products have been personally tested.
+
+Do not guarantee that a product will fit a cabinet based on approximate calculator results.
+
+Clearly distinguish recommendations, assumptions and verified specifications.
+
+## D. Quality Assurance
+
+Before declaring the project complete:
+
+1. Install all required dependencies.
+2. Run the production build.
+3. Fix all build errors.
+4. Verify that every important page is prerendered.
+5. Verify that article content exists in generated HTML.
+6. Test all three calculators.
+7. Test product comparison.
+8. Test search and filters.
+9. Test product references in MDX.
+10. Verify all navigation links.
+11. Verify mobile layouts.
+12. Check missing images.
+13. Validate SEO metadata.
+14. Validate sitemap and robots.txt.
+15. Run the Cloudflare deployment validation script.
+16. Check that no required feature depends on a paid backend.
+
+Do not leave nonfunctional buttons, fake interactions or unfinished sections.
+
+If a feature cannot be implemented reliably, explain the limitation rather than presenting a mockup as a working feature.
+
+## E. Execution Instructions
+
+Work in the following order:
+
+**Phase 1:** Establish architecture, dependencies, static rendering and design tokens.
+
+**Phase 2:** Build the complete design system, navigation, homepage and category pages.
+
+**Phase 3:** Implement MDX publishing and centralized product management.
+
+**Phase 4:** Create the three complete sample articles.
+
+**Phase 5:** Build the calculators, product comparison tool, search and filtering.
+
+**Phase 6:** Create informational and legal pages.
+
+**Phase 7:** Implement technical SEO, image optimization and performance improvements.
+
+**Phase 8:** Configure Cloudflare Pages deployment and documentation.
+
+**Phase 9:** Test everything and fix outstanding issues.
+
+Do not stop after creating the homepage.
+
+Do not replace requested functionality with static screenshots or decorative mockups.
+
+Deliver the complete working project with all source files, configuration, sample content and deployment documentation.
+
+# FINAL SUCCESS CRITERIA
+
+The finished website should feel like a premium, established home organization publication.
+
+A visitor should immediately understand:
+
+- What Sage & Shelf is.
+- What kitchen organization problems it solves.
+- Which category to explore.
+- Which products may help.
+- How to measure their available space.
+- Where to find useful guides.
+
+The website must combine visual beauty, genuine usefulness, trustworthy recommendations, strong technical SEO and excellent performance.
+
+**The ultimate objective is to create a distinctive, commercially ready Amazon affiliate content website that can grow organically through Google Search and Pinterest while remaining inexpensive to host and easy to maintain.**
